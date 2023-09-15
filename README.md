@@ -16,32 +16,28 @@ Follow these steps to run the project on your local environment:
    ```bash
    git clone https://github.com/ianArlen/movie-search.git
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
-bash
-Copy code
 cd movie-search
-Install the required dependencies:
 
-bash
-Copy code
+3. nstall the required dependencies:
+
 npm install @mui/material @mui/icons-material
 npm install @emotion/react
 npm install @emotion/styled
 npm install axios
 npm install react-router-dom
 npm install react-paginate
-Set legacy-peer-deps to avoid dependency issues:
 
-bash
-Copy code
+4. Set legacy-peer-deps to avoid dependency issues:
+
 npm config set legacy-peer-deps true
-Running
-After completing the setup, you can run the application:
 
-bash
-Copy code
+Running
+5. After completing the setup, you can run the application:
+
 npm start
+
 The application will run at http://localhost:3000 in your web browser. You can access it by navigating to this URL.
 
 Usage
@@ -49,5 +45,9 @@ Enter the title of a movie into the search bar and press Enter or click the sear
 A list of movies matching your search will be displayed.
 Click on a movie to view more details, including the title, release year, and a description if available.
 Enjoy exploring movies with this simple movie search application!
+
+See more 
+
+https://drive.google.com/file/d/1ABe1MYRpf-0FFO3AFmA80sHYf7ESH0XY/view
 
 
