@@ -18,25 +18,29 @@ Follow these steps to run the project on your local environment:
 
 2. Navigate to the project directory:
 
-cd movie-search
+   ```bash
+   cd movie-search
 
 3. nstall the required dependencies:
 
-npm install @mui/material @mui/icons-material
-npm install @emotion/react
-npm install @emotion/styled
-npm install axios
-npm install react-router-dom
-npm install react-paginate
+   ```bash
+   npm install @mui/material @mui/icons-material
+   npm install @emotion/react
+   npm install @emotion/styled
+   npm install axios
+   npm install react-router-dom
+   npm install react-paginate
 
 4. Set legacy-peer-deps to avoid dependency issues:
-
-npm config set legacy-peer-deps true
+   
+   ```bash
+   npm config set legacy-peer-deps true
 
 Running
 5. After completing the setup, you can run the application:
-
-npm start
+   
+      ```bash
+      npm start
 
 The application will run at http://localhost:3000 in your web browser. You can access it by navigating to this URL.
 
