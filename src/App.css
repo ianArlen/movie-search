@@ -1,0 +1,8 @@
+
+
+body {
+  background-color: black;
+  margin: 0;
+  overflow: auto; /* Opcionalmente, puedes usar overflow: auto; si deseas barras de desplazamiento solo cuando sea necesario */
+}
+
